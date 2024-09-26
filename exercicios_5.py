@@ -169,10 +169,9 @@ nota_5 = int(input('Escreva sua terceira nota de peso 3'))
 # Processamento e Saída
 media_ponderada_1 = (nota_3 + nota_4 + (nota_5 * 2)) / 4
 if media_ponderada_1 >= 60:
-    print(f'{media_ponderada_1} é a sua média nessa matéria, Parabéns Sujeito, voce foi Aprovado')
+    print(f'{media_ponderada_1} é a sua média nessa matéria, parabéns, voce foi aprovado')
 else:
-    print(f'{media_ponderada_1} é a sua média dessa disciplina, infelizmente você tá Reprovado Aquino, '
-          f'pela felicidade de nosso amigo Dornelos')
+    print(f'{media_ponderada_1} é a sua média dessa disciplina, infelizmente você está reprovado')
 
 """ Exercicio 14 """
 
@@ -184,11 +183,11 @@ exame_final = int(input('Escreva a nota do exame final'))
 # Processamento e Saída
 media_ponderada_2 = ((trabalho_laboratorio * 2) + (avaliacao_semestral * 3) + (exame_final * 5)) / 10
 if media_ponderada_2 >= 5:
-    print('Voce ta Aprovado Aquino')
+    print('Voce está aprovado')
 elif media_ponderada_2 >= 3:
-    print('Voce está de Recuperação Aquino')
+    print('Voce está de recuperação')
 else:
-    print('Você está Reprovado Aquino')
+    print('Você está reprovado')
 
 """ Exercicio 15 """
 # Entrada
@@ -861,4 +860,3 @@ elif 35 <= imc <= 39.9:
     print(f'{imc} esse é o seu IMC, Obesidade Grau II (severa)')
 elif imc >= 40:
     print(f'{imc} esse é o seu IMC, Obesidade Grau III (Mórbida)')
-

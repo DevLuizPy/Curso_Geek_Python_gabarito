@@ -5,6 +5,7 @@ from math import gcd
 import random
 import statistics
 
+
 def dobro(numero):
     return numero * 2
 
@@ -98,6 +99,7 @@ def soma_algarismos(numero_inteiro):
     algarismo_3 = int(numero[2])
     return algarismo_1 + algarismo_2 + algarismo_3
 
+
 print(soma_algarismos(251))
 
 
@@ -119,6 +121,7 @@ print(calculadora(10, 20, '+'))
 
 
 """ Exercicio 14 """
+
 
 def consumo_combustivel(distancia, litros):
     if distancia / litros < 8:
@@ -165,6 +168,7 @@ print(desenha_linha(10))
 
 """ Exercicio 17 """
 
+
 def soma_entre_numeros(numero_1, numero_2):
     if numero_1 <= 0 or numero_2 <= 0:
         return 'Dados invalidos, escreva um número inteiro'
@@ -187,6 +191,7 @@ def exponencial(x, z):
 
 
 """ Exercicio 19 """
+
 
 def maior_fator_primo(numero):
     if numero <= 1:
@@ -268,14 +273,17 @@ triangulo_lateral(5)
 
 """ Exercicio 24 """
 
+
 def triangulo(n):
     for i in range(1, 2 * n, 2):
         print('*' * i)
+
 
 triangulo(6)
 
 
 """ Exercicio 25 """
+
 
 def serie(n):
     soma = 0
@@ -283,16 +291,19 @@ def serie(n):
         soma += (i ** 2 + 1) / (i+3)
     return soma
 
+
 print(serie(3))
 
 
 """ Exercicio 26 """
+
 
 def somatorio(n):
     soma = 0
     for i in range(1, n+1):
         soma += i
     return soma
+
 
 print(somatorio(5))
 
@@ -404,6 +415,7 @@ print(soma_algarismos(10))
 
 """ Exercicio 34 """
 
+
 def fatorial_duplo(n):
     fatorial_duplo = 1
     for i in range(1, n +1):
@@ -446,6 +458,7 @@ print(superfatorial(4))
 
 """ Exercicio 37 """
 
+
 def hiperfatorial(n):
     hiperfatorial = 1
     for x in range(1, n + 1):
@@ -457,6 +470,7 @@ print(hiperfatorial(4))
 
 
 """ Exercicio 38 """
+
 
 def fatorial_exponencial(n):
     resultado = 1
@@ -497,6 +511,7 @@ print(numeros_pares(vetor_inteiros))
 
 vetor_inteiros = list(random.randint(1, 999,) for _ in range(10))
 print(vetor_inteiros)
+
 
 def maior_valor(lista):
     return max(lista)
@@ -583,6 +598,7 @@ vetor(vetor_reais)
 
 """ Exercicio 47 """
 
+
 def ler_matriz():
     matriz_4x4 = []
     for i in range(4):
@@ -602,6 +618,7 @@ def contar_maiores_que_10(matriz):
                 contador += 1
     return contador
 
+
 matriz = ler_matriz()
 
 quantidade_maiores_que_10 = contar_maiores_que_10(matriz)
@@ -611,6 +628,7 @@ print(quantidade_maiores_que_10)
 
 
 """ Exercicio 48 """
+
 
 def diagonal_principal_abaixo(matriz):
     soma = 0
@@ -622,6 +640,7 @@ def diagonal_principal_abaixo(matriz):
 
 """ Exercicio 49 """
 
+
 def soma_diagonal_principal(matriz):
     soma = 0
     for i in range(len(matriz)):
@@ -632,6 +651,7 @@ def soma_diagonal_principal(matriz):
 
 
 """ Exercicio 59 """
+
 
 def uniao(vetor_1,vetor_2):
     conjunto_1 = set(vetor_1)
@@ -691,7 +711,7 @@ def concatenar_strings_n(string_1,string_2, n):
     return nova_string + string_2
 
 
-print(concatenar_strings_n('Marcelo', 'Games', 4))
+print(concatenar_strings_n('Michael', 'Jackson', 4))
 
 
 """ Exercicio 66 """
@@ -790,9 +810,9 @@ if __name__ == "__main__":
 
 
 """
- Exercicio 70, é de C, fora que é repetitivo
- Exercicio 71 é de C, não sei nem começar em python
- Exercicio 72 é de C, não sei nem começar em python
+ Exercicio 70, é de C++, fora que é repetitivo
+ Exercicio 71 é de C++, não sei nem começar em python
+ Exercicio 72 é de C++, não sei nem começar em python
 """
 
 """ Exercicio 73 """

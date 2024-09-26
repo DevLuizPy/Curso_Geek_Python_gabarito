@@ -1,5 +1,4 @@
 """ Exercicio 1 """
-import random
 import statistics
 import math
 
@@ -360,12 +359,12 @@ maior_altura = max(alturas)
 menor_altura = min(alturas)
 
 for chave, valor in dicionario.items():
-        if valor >= maior_altura:
-            maior_altura = valor
-            maior_chave = chave
-        elif valor <= menor_valor:
-            menor_valor = valor
-            menor_chave = chave
+    if valor >= maior_altura:
+        maior_altura = valor
+        maior_chave = chave
+    elif valor <= menor_valor:
+        menor_valor = valor
+        menor_chave = chave
 print(maior_chave)
 print(maior_altura)
 print(menor_chave)
@@ -593,12 +592,13 @@ print(vetor_41)
 
 
 def num_para_vetor(num):
-    """Converte um número em um vetor de algarismos, do menos para o mais significativo."""
+    """Converte um número num vetor de algarismos, do menos para o mais significativo."""
     vetor = []
     while num > 0:
         vetor.append(num % 10)
         num //= 10
     return vetor
+
 
 def soma_vetores(vetor_a, vetor_b):
     """Soma dois vetores de algarismos, simulando a soma de números inteiros."""
@@ -711,4 +711,3 @@ else:
     # Gera e imprime o triângulo de Pascal
     pascals_triangle = generate_pascals_triangle(n)
     print_pascals_triangle(pascals_triangle)
-

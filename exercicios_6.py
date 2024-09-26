@@ -821,6 +821,7 @@ def soma_primos_abaixo_de(limite):
     soma = sum(num for num, primo in enumerate(eh_primo) if primo)
     return soma
 
+
 # Definir o limite
 limite = 2000000
 
@@ -867,7 +868,7 @@ print(f"Existem {resultado} números primos entre {a} e {b}.")
 """ Exercicio 58 """
 
 
-def crivo_de_eratostenes(limite):
+def crivo_de_eratostenes_2(limite):
     eh_primo = [True] * (limite + 1)
     eh_primo[0] = eh_primo[1] = False  # 0 e 1 não são primos
 
@@ -883,7 +884,7 @@ def somar_primos_entre(a, b):
     if a > b:
         a, b = b, a  # Trocar para garantir que a seja menor que b
 
-    eh_primo = crivo_de_eratostenes(b)
+    eh_primo = crivo_de_eratostenes_2(b)
     soma_primos = sum(num for num in range(a, b + 1) if eh_primo[num])
 
     return soma_primos
