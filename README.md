@@ -9,7 +9,7 @@ Email: luizfcefetrj@gmail.com
 **Ultimos uptades**
 - [ ] Término e publicação do gabarito dos exericios das seções 13, 16 e 17.
 - [x] Criação do repóstório com o gabarito até a seção 8.
-
+- 293/378 exercicios feitos.
 ### Apresentação
 
 Este é um projeto que contempla o gabarito do curso Programação em Python do básico ao avançado, feito pela minha autoria, no momento da seção 4 até a seção 8. O total de exercicios feitos é de 293, podendo ser consultados na linguagem python, em cada um dos arquivos separados por sua respectiva seção. Lembrando que esse é um gabarito extra-oficial que pode conter erros, além de existirem outras formas certas de resolver esses exercicios.
